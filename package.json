@@ -1,0 +1,22 @@
+{
+  "name": "mcp-google-search",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc -p .",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.2.0",
+    "cross-fetch": "^4.0.0",
+    "fast-xml-parser": "^4.4.0",
+    "html-to-text": "^9.0.5",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.17.0",
+    "typescript": "^5.6.3"
+  }
+}
